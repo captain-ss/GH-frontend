@@ -1,0 +1,56 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.deal-ofthe-day--wrapper {
+  margin-bottom: 50px;
+}
+.deal-ofthe-day--wrapper .content-box--image-wrapper {
+  height: 312px;
+}
+.deal-ofthe-day--wrapper .content-box--image-wrapper .content-box--image {
+  height: 100%;
+}
+.deal-ofthe-day--wrapper .content-box--texts {
+  left: 5%;
+  max-width: 80%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 333px;
+}
+@media (min-width: 992px) {
+  .deal-ofthe-day--wrapper .content-box--texts {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.deal-ofthe-day--wrapper .content-box--title {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.deal-ofthe-day--wrapper .content-box--title::after {
+  background-color: #2FAC66;
+  content: "";
+  display: block;
+  height: 5px;
+  margin-top: 20px;
+  position: absolute;
+  width: 40px;
+}
+.deal-ofthe-day--wrapper .content-box--description {
+  font-weight: bold;
+  line-height: 1.7;
+}
+.deal-ofthe-day--wrapper .content-box--description .price {
+  color: #2FAC66;
+  display: block;
+  font-size: 20px;
+}
+.deal-ofthe-day--wrapper .content-box--cta-link {
+  margin-top: 50px;
+  max-width: 200px;
+}/*# sourceMappingURL=DealoftheDay.css.map */

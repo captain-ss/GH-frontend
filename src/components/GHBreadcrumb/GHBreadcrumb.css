@@ -1,0 +1,11 @@
+.breadcrumb--wrapper {
+  padding-top: 20px;
+}
+.breadcrumb--wrapper .breadcrumb-item .cta-home img {
+  display: block;
+  padding-top: 4px;
+}
+.breadcrumb--wrapper .breadcrumb-item .breadcrumb-link {
+  color: var(--bs-gray);
+  font-size: 14px;
+}/*# sourceMappingURL=GHBreadcrumb.css.map */

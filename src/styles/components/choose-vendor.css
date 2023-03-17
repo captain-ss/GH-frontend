@@ -1,0 +1,39 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.choose-vendor {
+  padding-right: 50px;
+}
+.choose-vendor .goal-wrapper {
+  margin-bottom: 60px;
+}
+.choose-vendor .gh-rating span {
+  margin: 0 2px;
+}
+.choose-vendor .profile-sidebar .form-select {
+  color: #EB5933;
+}
+.choose-vendor .profile-sidebar .form-check-input:checked[type=radio] + label,
+.choose-vendor .profile-sidebar .form-check-input:checked[type=checkbox] + label {
+  color: #EB5933;
+}
+
+.profile-vendor-title {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 52px;
+  margin-bottom: 60px;
+}
+
+.sidebar-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sort-title {
+  font-size: 14px;
+}/*# sourceMappingURL=choose-vendor.css.map */

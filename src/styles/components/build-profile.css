@@ -1,0 +1,44 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.profile-title {
+  font-size: 40px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.profile-title span {
+  color: #EB5933;
+}
+
+.profile-form-subtitle {
+  color: #EB5933;
+  font-size: 22px;
+  line-height: 27px;
+  padding-bottom: 22px;
+}
+
+.profile-form {
+  background-color: var(--bs-light);
+  margin-bottom: 50px;
+  padding: 50px;
+}
+@media (min-width: 992px) {
+  .profile-form {
+    padding-right: 150px;
+  }
+}
+.profile-form-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.profile-form .cta {
+  border: 1px solid #EB5933;
+  border-radius: 0;
+  width: 150px;
+}/*# sourceMappingURL=build-profile.css.map */

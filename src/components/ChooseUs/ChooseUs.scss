@@ -1,0 +1,89 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.choose-us--wrapper {
+	position: relative;
+	.choose-us--img-wrapper {
+		height: 1000px;
+		overflow: hidden;
+		@include respond-to($sm) {
+			height: 850px;
+		}
+		@include respond-to($md) {
+			height: 550px;
+		}
+		.choose-us--img {
+			height: 100%;
+			object-fit: cover;
+			object-position: 50% 50%;
+			width: 100%;
+		}
+	}
+	.choose-us--content {
+		left: 50%;
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+
+		.col-lg-5,
+		.col-md-6 {
+			@include respond-to($lg) {
+				.content-box--image-wrapper {
+					margin-left: 30px;
+				}
+			}
+			&:nth-child(odd) {
+				.content-box--image-wrapper {
+					order: 2;
+					@include respond-to($lg) {
+						margin-left: 0;
+						margin-right: 30px;
+					}
+				}
+				.content-box--texts {
+					text-align: right;
+				}
+			}
+		}
+	}
+	.content-box {
+		&---wrapper {
+			align-items: center;
+			display: flex;
+			gap: 20px;
+		}
+		&--image-wrapper {
+			background-color: $color-orange;
+			border-radius: 50%;
+			flex: 1 0 70px;
+			height: 70px;
+			margin-left: 10px;
+			width: 70px;
+			@include respond-to($md) {
+				margin-left: 0;
+			}
+			.content-box--image {
+				height: 40px;
+				left: 50%;
+				top: 50%;
+				position: absolute;
+				transform: translate(-50%, -50%);
+				width: 40px;
+			}
+		}
+		&--texts {
+			.content-box {
+				&--title {
+					// line-height: 1.;
+					margin-bottom: 10px;
+				}
+				&--description {
+					p {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}

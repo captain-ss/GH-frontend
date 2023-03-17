@@ -1,0 +1,33 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.top-slider-container {
+  margin-top: 150px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .top-slider-container .slick-dots {
+    bottom: 50px;
+    left: 60px;
+    text-align: left;
+  }
+}
+
+.cta--creat-plan {
+  background-color: #EB5933;
+  bottom: -65px;
+  color: var(--bs-white);
+  padding: 15px;
+  padding-bottom: 0;
+  max-width: 115px;
+  position: absolute;
+  text-align: center;
+  right: 50px;
+}
+.cta--creat-plan:focus, .cta--creat-plan:hover {
+  color: var(--bs-white);
+}/*# sourceMappingURL=TopSlider.css.map */

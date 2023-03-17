@@ -1,0 +1,22 @@
+.gallery--wrapper {
+  margin-bottom: 50px;
+}
+.gallery--wrapper .row .col-md-6 {
+  order: 0;
+}
+.gallery--wrapper .row:nth-child(even) .col-md-6:first-child {
+  order: 1;
+}
+.gallery--wrapper .gallery-image {
+  height: calc(100% - 25px);
+  margin-bottom: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  width: 100%;
+}
+.gallery--wrapper .cta--border-bottom {
+  margin: 10px auto;
+  max-width: 200px;
+}/*# sourceMappingURL=VendorPhotos.css.map */

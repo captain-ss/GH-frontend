@@ -1,0 +1,24 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.gh-tabs--wrapper {
+  margin-bottom: 25px;
+}
+.gh-tabs--wrapper.nav-tabs .nav-link:focus,
+.gh-tabs--wrapper.nav-tabs .nav-link:hover,
+.gh-tabs--wrapper.nav-tabs .nav-link.active,
+.gh-tabs--wrapper.nav-tabs .nav-item.show .nav-link {
+  border-color: var(--bs-white);
+  border-bottom-color: #2FAC66;
+  color: #2FAC66;
+}
+.gh-tabs--wrapper.nav-tabs .nav-link.active {
+  font-weight: bold;
+}
+.gh-tabs--wrapper.nav-tabs .nav-link {
+  color: #706D6D;
+}/*# sourceMappingURL=vendor-details.css.map */

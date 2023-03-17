@@ -1,0 +1,52 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.header--wrapper {
+  background-color: var(--bs-white);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-wrapper {
+  justify-content: space-between;
+}
+.navbar-wrapper .navbar-nav .nav-link {
+  color: #000000;
+  font-weight: bold;
+}
+.navbar-wrapper .navbar-nav .nav-link.is-active {
+  color: #2FAC66;
+  font-weight: bold;
+}
+.navbar-wrapper .cart-link a {
+  font-weight: 500;
+  color: #000;
+  padding: 0.5rem 0;
+}
+.navbar-wrapper .cart-image {
+  height: 24px;
+  margin-right: 5px;
+}
+
+.site-tools--wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.site-tools--links {
+  color: var(--bs-body-color);
+  font-size: 14px;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+.site-tools--links:hover, .site-tools--links:focus {
+  color: #212529;
+}
+.site-tools--right .icon-svg {
+  height: 20px;
+}/*# sourceMappingURL=Header.css.map */

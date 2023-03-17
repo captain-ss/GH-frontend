@@ -1,0 +1,29 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+@media (min-width: 1200px) {
+  .what-we-offer--wrapper {
+    max-width: 1100px;
+  }
+}
+.what-we-offer--wrapper .gh-carousel--wrapper .slider-item,
+.what-we-offer--wrapper .gh-carousel--wrapper .slider-img {
+  height: 210px;
+}
+.what-we-offer--wrapper .gh-carousel--wrapper .slider-text {
+  left: auto;
+  right: 0;
+  top: 80%;
+}
+.what-we-offer--wrapper .gh-carousel--wrapper .cta {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 auto;
+  padding: 5px 10px;
+  width: 180px;
+}/*# sourceMappingURL=WhatWeOffers.css.map */

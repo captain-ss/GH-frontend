@@ -1,0 +1,55 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.deal-ofthe-day {
+	&--wrapper {
+		margin-bottom: 50px;
+
+		.content-box--image-wrapper {
+			height: 312px;
+			.content-box--image {
+				height: 100%;
+			}
+		}
+		.content-box--texts {
+			left: 5%;
+			max-width: 80%;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 333px;
+			@include respond-to($lg) {
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+		.content-box--title {
+			font-size: 20px;
+			margin-bottom: 40px;
+			font-weight: 600;
+			&::after {
+				background-color: $color-gh-green;
+				content: '';
+				display: block;
+				height: 5px;
+				margin-top: 20px;
+				position: absolute;
+				width: 40px
+			}
+		}
+		.content-box--description {
+			font-weight: bold;
+			line-height: 1.7;
+
+			.price {
+				color: $color-gh-green;
+				display: block;
+				font-size: 20px;
+			}
+		}
+		.content-box--cta-link {
+			margin-top: 50px;
+			max-width: 200px;
+		}
+	}
+}

@@ -1,0 +1,22 @@
+@import '../variables.scss';
+@import '../mixins.scss';
+
+.gh-tabs--wrapper {
+	margin-bottom: 25px;
+	&.nav-tabs {
+		.nav-link:focus,
+		.nav-link:hover,
+		.nav-link.active,
+		.nav-item.show .nav-link {
+			border-color: var(--bs-white);
+			border-bottom-color: $color-gh-green;
+			color: $color-gh-green;
+		}
+		.nav-link.active {
+			font-weight: bold;
+		}
+		.nav-link {
+			color: $color-gh-gray-100;
+		}
+	}
+}

@@ -1,0 +1,92 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.choose-us--wrapper {
+  position: relative;
+}
+.choose-us--wrapper .choose-us--img-wrapper {
+  height: 1000px;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .choose-us--wrapper .choose-us--img-wrapper {
+    height: 850px;
+  }
+}
+@media (min-width: 768px) {
+  .choose-us--wrapper .choose-us--img-wrapper {
+    height: 550px;
+  }
+}
+.choose-us--wrapper .choose-us--img-wrapper .choose-us--img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  width: 100%;
+}
+.choose-us--wrapper .choose-us--content {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .choose-us--wrapper .choose-us--content .col-lg-5 .content-box--image-wrapper,
+.choose-us--wrapper .choose-us--content .col-md-6 .content-box--image-wrapper {
+    margin-left: 30px;
+  }
+}
+.choose-us--wrapper .choose-us--content .col-lg-5:nth-child(odd) .content-box--image-wrapper,
+.choose-us--wrapper .choose-us--content .col-md-6:nth-child(odd) .content-box--image-wrapper {
+  order: 2;
+}
+@media (min-width: 992px) {
+  .choose-us--wrapper .choose-us--content .col-lg-5:nth-child(odd) .content-box--image-wrapper,
+.choose-us--wrapper .choose-us--content .col-md-6:nth-child(odd) .content-box--image-wrapper {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+}
+.choose-us--wrapper .choose-us--content .col-lg-5:nth-child(odd) .content-box--texts,
+.choose-us--wrapper .choose-us--content .col-md-6:nth-child(odd) .content-box--texts {
+  text-align: right;
+}
+.choose-us--wrapper .content-box---wrapper {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.choose-us--wrapper .content-box--image-wrapper {
+  background-color: #EB5933;
+  border-radius: 50%;
+  flex: 1 0 70px;
+  height: 70px;
+  margin-left: 10px;
+  width: 70px;
+}
+@media (min-width: 768px) {
+  .choose-us--wrapper .content-box--image-wrapper {
+    margin-left: 0;
+  }
+}
+.choose-us--wrapper .content-box--image-wrapper .content-box--image {
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
+.choose-us--wrapper .content-box--texts .content-box--title {
+  margin-bottom: 10px;
+}
+.choose-us--wrapper .content-box--texts .content-box--description p {
+  margin-bottom: 0;
+}/*# sourceMappingURL=ChooseUs.css.map */

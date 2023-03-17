@@ -1,0 +1,16 @@
+.user-Dashboard-box1{
+    border: 1px solid #2FAC66;
+    border-radius: 1vw;
+    width:29%;
+    box-sizing: border-box;
+    padding: 2%;
+    
+}
+.user-Dashboard-box1 b{
+    color: #868484;
+    margin-left: .3vw;
+}
+.user-Dashboard-box1 span{
+    font-weight: 700;
+    color: #2FAC66;
+}

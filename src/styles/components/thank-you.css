@@ -1,0 +1,20 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.thank-you--message {
+  align-items: center;
+  background-color: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 0;
+  min-height: 300px;
+  padding: 40px 0;
+}
+.thank-you--title {
+  margin: 30px 0 20px;
+}/*# sourceMappingURL=thank-you.css.map */

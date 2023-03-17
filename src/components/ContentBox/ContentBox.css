@@ -1,0 +1,37 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.content-box---wrapper {
+  margin-bottom: 20px;
+  position: relative;
+}
+.content-box--header {
+  text-align: center;
+}
+.content-box--image-wrapper {
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+}
+.content-box--image-wrapper .content-box--image {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  width: 100%;
+}
+.content-box--text-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.content-box--title {
+  font-size: 28px;
+  font-weight: bold;
+}/*# sourceMappingURL=ContentBox.css.map */

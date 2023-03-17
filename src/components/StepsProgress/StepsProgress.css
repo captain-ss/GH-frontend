@@ -1,0 +1,31 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.RSPBprogressBar {
+  margin: 30px 0 80px;
+}
+.RSPBprogressBar .RSPBstep {
+  background-color: #2FAC66;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+.RSPBprogressBar .RSPBstep:nth-child(1) {
+  left: 15% !important;
+}
+.RSPBprogressBar .RSPBstep:nth-child(2) {
+  left: 50% !important;
+}
+.RSPBprogressBar .RSPBstep:nth-child(3) {
+  left: 85% !important;
+}
+.RSPBprogressBar .step-image {
+  filter: grayscale(1);
+}
+.RSPBprogressBar .step-image.grayscale {
+  filter: grayscale(0);
+}/*# sourceMappingURL=StepsProgress.css.map */

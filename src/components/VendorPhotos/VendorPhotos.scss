@@ -1,0 +1,23 @@
+.gallery--wrapper {
+	margin-bottom: 50px;
+
+	.row .col-md-6 {
+		order: 0;
+	}
+	.row:nth-child(even) {
+		.col-md-6:first-child {
+			order: 1;
+		}
+	}
+	.gallery-image {
+		height: calc(100% - 25px);
+		margin-bottom: 25px;
+		object-fit: cover;
+		object-position: 50% 50%;
+		width: 100%;
+	}
+	.cta--border-bottom {
+		margin: 10px auto;
+		max-width: 200px;
+	}
+}

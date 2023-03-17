@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.RSPBprogressBar {
+	margin: 30px 0 80px;
+
+	.RSPBstep {
+		background-color: $color-gh-green;
+		border-radius: 50%;
+		height: 60px;
+		width: 60px;
+
+		&:nth-child(1) {
+			left: 15% !important;
+		}
+		&:nth-child(2) {
+			left: 50% !important;
+		}
+		&:nth-child(3) {
+			left: 85% !important;
+		}
+	}
+	.step-image {
+		filter: grayscale(1);
+		&.grayscale {
+			filter: grayscale(0);
+		}
+	}
+}

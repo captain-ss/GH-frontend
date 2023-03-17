@@ -1,0 +1,205 @@
+@import '../variables.scss';
+@import '../mixins.scss';
+
+.order-confirmation--wrapper {
+	.order-summary--title {
+		background-color: $color-gh-green-100;
+		font-size: 22px;
+		line-height: 28px;
+		padding: 10px 20px;
+		position: relative;
+
+		.order-number {
+			font-size: 16px;
+			line-height: 20px;
+			position: absolute;
+			right: 20px;
+			top: 50%;
+			transform: translateY(-50%);
+
+			em {
+				color: $color-black;
+				font-style: normal;
+			}
+		}
+	}
+	.vendor {
+		&-image {
+			object-fit: cover;
+			object-position: 50% 50%;
+			width: 100%;
+		}
+		&-name {
+			color: $color-orange;
+			font-size: 23px;
+			line-height: 29px;
+			margin-top: 10px;
+			text-align: center;
+		}
+	}
+	.box {
+		background-color: $color-gh-gray-700;
+		border: 1px solid $color-gh-green-200;
+		border-radius: 6px;
+		height: calc(100% - 22px);
+		margin-bottom: 22px;
+		padding-top: 10px;
+		text-align: center;
+		&.meals {
+			img {
+				margin-bottom: 6px;
+			}
+			p {
+				color: $color-orange;
+				font-weight: bold;
+			}
+		}
+		&.days {
+			padding: 12px 30px;
+			text-align: left;
+		}
+		p {
+			margin-bottom: 10px;
+		}
+		.icon {
+			margin-top: -2px;
+		}
+		.title {
+			color: $color-black-100;
+		}
+		.text {
+			color: $color-black;
+			font-size: 20px;
+			line-height: 25px;
+		}
+	}
+	.pricing-details--wrapper {
+		background-color: $color-gh-gray-800;
+		font-size: 18px;
+		line-height: 22px;
+		height: calc(100% - 22px);
+    	padding: 24px 35px 115px 35px;
+		position: relative;
+		.pricing-details--title {
+			border-bottom: 1px solid $color-black-200;
+			color: $color-black;
+			font-size: 22px;
+			line-height: 28px;
+			padding-bottom: 15px;
+			padding-left: 15px;
+		}
+		.text {
+			padding-left: 15px;
+			position: relative;
+			span {
+				position: absolute;
+				right: 15px;
+			}
+		}
+		.total-amount {
+			border-top: 1px solid $color-black-200;
+			color: $color-black;
+			font-size: 18px;
+			line-height: 28px;
+			padding-left: 15px;
+			padding-top: 15px;
+			position: relative;
+			@include respond-to($lg) {
+				font-size: 22px;
+			}
+			span {
+				color: $color-orange;
+				font-size: 20px;
+				line-height: 30px;
+				position: absolute;
+				right: 15px;
+				@include respond-to($lg) {
+					font-size: 40px;
+					line-height: 50px;
+				}
+			}
+		}
+		.coupon-wrapper {
+			bottom: 20px;
+			left: 30px;
+			position: absolute;
+			right: 30px;
+			.btn-coupon {
+				border-radius: 0;
+				padding: 7px 20px;
+			}
+		}
+	}
+
+	.additional-info {
+		margin-top: 30px;
+		.additional-title {
+			font-size: 22px;
+			line-height: 28px;
+		}
+	}
+
+	.delivery--wrapper {
+		margin-top: 60px;
+		.delivery-title {
+			border-bottom: 1px solid $color-black-200;
+			margin-bottom: 30px;
+			padding-bottom: 10px;
+		}
+		.time-slot {
+			font-size: 18px;
+		}
+		.time-options {
+			margin-left: -10px;
+			.select-time {
+				background-color: transparent;
+				border: 1px solid $color-black;
+				border-radius: 0;
+				color: $color-black;
+				margin: 0 10px;
+				padding: 7px 20px;
+			}
+			input[type='radio']:checked + .select-time {
+				background-color: $color-orange;
+				border-color: $color-orange;
+				color: var(--bs-white);
+			}
+		}
+		.form-label {
+			font-weight: bold;
+		}
+		.form-control {
+			border: 0;
+			border-radius: 0;
+			border-bottom: 1px solid $color-black;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.form-address {
+			position: relative;
+			.icon-location {
+				left: 0;
+				position: absolute;
+				top: 40px;
+				width: 20px;
+			}
+			.form-control {
+				padding-left: 25px;
+			}
+		}
+		.btn-submit {
+			border-radius: 0;
+			margin-bottom: 50px;
+			margin-top: 30px;
+		}
+		.timeslot-error {
+			~.invalid-feedback {
+				display: block;
+			}
+		
+			.select-time {
+				border-color: var(--bs-danger);
+			}
+		}
+	}
+}

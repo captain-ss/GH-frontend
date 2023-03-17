@@ -1,0 +1,81 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.vendor--wrapper {
+  align-items: center;
+  background-color: var(--bs-white);
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.vendor--wrapper .vendor-rating {
+  margin: 0 auto;
+}
+.vendor--wrapper .vendor-rating span {
+  margin: 0 3px;
+}
+.vendor--wrapper .gh-carousel--wrapper {
+  margin-bottom: 30px;
+}
+.vendor--wrapper .gh-carousel--wrapper .slider-img {
+  height: auto;
+}
+.vendor--wrapper .gh-carousel--wrapper .slick-dots li {
+  height: 5px;
+  width: 5px;
+}
+.vendor--wrapper .gh-carousel--wrapper .slick-dots li button {
+  height: 5px;
+  width: 5px;
+}
+.vendor--wrapper .gh-carousel--wrapper .slick-dots li button:before {
+  background-color: #B7B7B7;
+  color: #B7B7B7;
+  height: 5px;
+  line-height: 5px;
+  opacity: 0.6;
+  width: 5px;
+}
+.vendor--wrapper .gh-carousel--wrapper .slick-dots li.slick-active {
+  height: 5px;
+  width: 5px;
+}
+.vendor--wrapper .gh-carousel--wrapper .slick-dots li.slick-active button {
+  height: 5px;
+  width: 5px;
+}
+.vendor--wrapper .gh-carousel--wrapper .slick-dots li.slick-active button:before {
+  background-color: #EB5933;
+  color: #EB5933;
+  height: 5px;
+  opacity: 1;
+  width: 5px;
+}
+.vendor--wrapper:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+.vendor--snapshot-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.vendor--snapshot-price {
+  color: #EB5933;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.vendor--snapshot-plan {
+  color: #B7B7B7;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.vendor--snapshot-explore {
+  color: #EB5933;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=VendorSnapshot.css.map */

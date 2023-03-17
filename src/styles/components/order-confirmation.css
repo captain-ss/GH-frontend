@@ -1,0 +1,202 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.order-confirmation--wrapper .order-summary--title {
+  background-color: #ECFFF6;
+  font-size: 22px;
+  line-height: 28px;
+  padding: 10px 20px;
+  position: relative;
+}
+.order-confirmation--wrapper .order-summary--title .order-number {
+  font-size: 16px;
+  line-height: 20px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.order-confirmation--wrapper .order-summary--title .order-number em {
+  color: #000000;
+  font-style: normal;
+}
+.order-confirmation--wrapper .vendor-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  width: 100%;
+}
+.order-confirmation--wrapper .vendor-name {
+  color: #EB5933;
+  font-size: 23px;
+  line-height: 29px;
+  margin-top: 10px;
+  text-align: center;
+}
+.order-confirmation--wrapper .box {
+  background-color: #FAFAFA;
+  border: 1px solid #BCFFDA;
+  border-radius: 6px;
+  height: calc(100% - 22px);
+  margin-bottom: 22px;
+  padding-top: 10px;
+  text-align: center;
+}
+.order-confirmation--wrapper .box.meals img {
+  margin-bottom: 6px;
+}
+.order-confirmation--wrapper .box.meals p {
+  color: #EB5933;
+  font-weight: bold;
+}
+.order-confirmation--wrapper .box.days {
+  padding: 12px 30px;
+  text-align: left;
+}
+.order-confirmation--wrapper .box p {
+  margin-bottom: 10px;
+}
+.order-confirmation--wrapper .box .icon {
+  margin-top: -2px;
+}
+.order-confirmation--wrapper .box .title {
+  color: #5A5858;
+}
+.order-confirmation--wrapper .box .text {
+  color: #000000;
+  font-size: 20px;
+  line-height: 25px;
+}
+.order-confirmation--wrapper .pricing-details--wrapper {
+  background-color: #F5F5F5;
+  font-size: 18px;
+  line-height: 22px;
+  height: calc(100% - 22px);
+  padding: 24px 35px 115px 35px;
+  position: relative;
+}
+.order-confirmation--wrapper .pricing-details--wrapper .pricing-details--title {
+  border-bottom: 1px solid #A4A2A2;
+  color: #000000;
+  font-size: 22px;
+  line-height: 28px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+.order-confirmation--wrapper .pricing-details--wrapper .text {
+  padding-left: 15px;
+  position: relative;
+}
+.order-confirmation--wrapper .pricing-details--wrapper .text span {
+  position: absolute;
+  right: 15px;
+}
+.order-confirmation--wrapper .pricing-details--wrapper .total-amount {
+  border-top: 1px solid #A4A2A2;
+  color: #000000;
+  font-size: 18px;
+  line-height: 28px;
+  padding-left: 15px;
+  padding-top: 15px;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .order-confirmation--wrapper .pricing-details--wrapper .total-amount {
+    font-size: 22px;
+  }
+}
+.order-confirmation--wrapper .pricing-details--wrapper .total-amount span {
+  color: #EB5933;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  right: 15px;
+}
+@media (min-width: 992px) {
+  .order-confirmation--wrapper .pricing-details--wrapper .total-amount span {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+.order-confirmation--wrapper .pricing-details--wrapper .coupon-wrapper {
+  bottom: 20px;
+  left: 30px;
+  position: absolute;
+  right: 30px;
+}
+.order-confirmation--wrapper .pricing-details--wrapper .coupon-wrapper .btn-coupon {
+  border-radius: 0;
+  padding: 7px 20px;
+}
+.order-confirmation--wrapper .additional-info {
+  margin-top: 30px;
+}
+.order-confirmation--wrapper .additional-info .additional-title {
+  font-size: 22px;
+  line-height: 28px;
+}
+.order-confirmation--wrapper .delivery--wrapper {
+  margin-top: 60px;
+}
+.order-confirmation--wrapper .delivery--wrapper .delivery-title {
+  border-bottom: 1px solid #A4A2A2;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+.order-confirmation--wrapper .delivery--wrapper .time-slot {
+  font-size: 18px;
+}
+.order-confirmation--wrapper .delivery--wrapper .time-options {
+  margin-left: -10px;
+}
+.order-confirmation--wrapper .delivery--wrapper .time-options .select-time {
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 0;
+  color: #000000;
+  margin: 0 10px;
+  padding: 7px 20px;
+}
+.order-confirmation--wrapper .delivery--wrapper .time-options input[type=radio]:checked + .select-time {
+  background-color: #EB5933;
+  border-color: #EB5933;
+  color: var(--bs-white);
+}
+.order-confirmation--wrapper .delivery--wrapper .form-label {
+  font-weight: bold;
+}
+.order-confirmation--wrapper .delivery--wrapper .form-control {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #000000;
+  padding-left: 0;
+  padding-right: 0;
+}
+.order-confirmation--wrapper .delivery--wrapper .form-address {
+  position: relative;
+}
+.order-confirmation--wrapper .delivery--wrapper .form-address .icon-location {
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 20px;
+}
+.order-confirmation--wrapper .delivery--wrapper .form-address .form-control {
+  padding-left: 25px;
+}
+.order-confirmation--wrapper .delivery--wrapper .btn-submit {
+  border-radius: 0;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.order-confirmation--wrapper .delivery--wrapper .timeslot-error ~ .invalid-feedback {
+  display: block;
+}
+.order-confirmation--wrapper .delivery--wrapper .timeslot-error .select-time {
+  border-color: var(--bs-danger);
+}/*# sourceMappingURL=order-confirmation.css.map */

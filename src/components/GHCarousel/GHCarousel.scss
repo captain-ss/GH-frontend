@@ -1,0 +1,89 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+
+.gh-carousel {
+	&--wrapper {
+		margin-bottom: 50px;
+
+		.slick-slide {
+			> div {
+				margin: 0 10px;
+				overflow: hidden;
+			}
+		}
+		.slider-item {
+			position: relative;
+		}
+		.slider-img {
+			display: inline-block;
+			height: 450px;
+			object-fit: cover;
+			object-position: 50% 50%;
+			width: 100%;
+		}
+		.slider-text {
+			left: 50px;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			z-index: 1;
+			.GHC-title-carausal{
+				font-size: 3vw;
+				font-weight: 700;
+				width: 70%;
+			}
+		}
+		.slick-next,
+		.slick-prev {
+			height: 40px;
+			width: 40px;
+			z-index: 1;
+			&::before {
+				display: none;
+			}
+		}
+		.slick-next {
+			right: 10px;
+		}
+		.slick-prev {
+			left: 10px;
+		}
+		.slick-dots {
+			li {
+				height: 10px;
+				width: 10px;
+				button {
+					height: 10px;
+					width: 10px;
+					&:before {
+						background-color: $color-black;
+						border-radius: 50%;
+						color: $color-black;
+						height: 10px;
+						line-height: 10px;
+						opacity: 0.6;
+						width: 10px;
+					}
+				}
+				&.slick-active {
+					height: 10px;
+					width: 30px;
+					button {
+						height: 10px;
+						width: 30px;
+						&:before {
+							background-color: $color-gh-green;
+							border-radius: 15px;
+							color: $color-gh-green;
+							height: 10px;
+							opacity: 1;
+							width: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

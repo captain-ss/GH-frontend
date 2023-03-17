@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.what-we-offer {
+	&--wrapper {
+		@include respond-to($xl) {
+			max-width: 1100px;
+		}
+		.gh-carousel--wrapper {
+			.slider-item,
+			.slider-img {
+				height: 210px;
+			}
+			.slider-text {
+				left: auto;
+				right: 0;
+				top: 80%;
+			}
+			.cta {
+				align-items: center;
+				display: flex;
+				justify-content: space-between;
+				margin: 0 0 0 auto;
+				padding: 5px 10px;
+				width: 180px;
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.choose-your-goal--wrapper {
+	margin-bottom: 50px;
+	.content-box--image-wrapper {
+		height: 325px;
+		&:hover {
+			box-shadow: 7px 13px 35px -8px rgba(0, 0, 0, .75);
+		}
+		.content-box--image {
+			width: 100%;
+		}
+	}
+	.content-box--texts {
+		left: 50%;
+		position: absolute;
+		top: 70%;
+		transform: translate(-50%, -50%);
+		width: fit-content;
+
+		.content-box--title {
+			color: var(--bs-white);
+		}
+	}
+	.content-box--cta-link {
+		margin-top: 40px;
+	}
+}

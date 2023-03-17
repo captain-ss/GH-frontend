@@ -1,0 +1,57 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+
+.header--wrapper {
+	background-color: var(--bs-white);
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.navbar-wrapper {
+	justify-content: space-between;
+
+	.navbar-nav .nav-link {
+		color: $color-black;
+		font-weight: bold;
+		&.is-active {
+			color: $color-gh-green;
+			font-weight: bold;
+		}
+	}
+
+	.cart-link a {
+		font-weight: 500;
+    	color: #000;
+		padding: 0.5rem 0;
+	}
+	.cart-image {
+		height: 24px;
+		margin-right: 5px
+	}
+}
+
+.site-tools {
+	&--wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	&--links {
+		color: var(--bs-body-color);
+		font-size: $small-size;
+		padding: 8px 12px;
+		text-decoration: none;
+		&:hover,
+		&:focus {
+			color: #212529;
+		}
+	}
+
+	&--right {
+		.icon-svg {
+			height: 20px;
+		}
+	}
+}

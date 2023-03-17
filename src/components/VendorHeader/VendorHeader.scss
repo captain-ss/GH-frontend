@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.vendor-header {
+	font-size: 14px;
+}
+.vender-image img {
+	height: 300px;
+	margin-bottom: 1rem;
+	object-fit: cover;
+	object-position: 50% 50%;
+	width: 100%;
+}
+.vendor-location-plan {
+	@include respond-to($md) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.vendor-prop {
+		@include respond-to($md) {
+			margin-right: 20px;
+		}
+	}
+}

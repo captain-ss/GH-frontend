@@ -1,0 +1,1 @@
+{"version":3,"sources":["../variables.scss","../mixins.scss","vendor-details.scss","vendor-details.css"],"names":[],"mappings":"AAAA;;CAAA;AAqBA;;CAAA;ACbA,2BAAA;ACLA;EACC,mBAAA;ACKD;ADHE;;;;EAIC,6BAAA;EACA,4BFHc;EEId,cFJc;AGSjB;ADHE;EACC,iBAAA;ACKH;ADHE;EACC,cFLiB;AGUpB","file":"vendor-details.css"}

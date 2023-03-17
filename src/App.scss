@@ -1,0 +1,218 @@
+@import "~bootstrap/scss/bootstrap";
+
+// Custom Component SCSS files
+@import './styles/variables.scss';
+@import './styles/mixins.scss';
+@import './styles/globals.scss';
+
+// @import './styles/components/build-profile.scss';
+// @import './styles/components/formulate-plan.scss';
+// @import './styles/components/choose-vendor.scss';
+$orange: #EB5933;
+$gray : #767676;
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.gray-text{
+  color:$gray;
+}
+.text-orange{
+color:$orange;
+}
+.ticket-detail-title{
+  a{
+    text-decoration: none;
+  }
+  i{
+    font-size: 15px;
+    color:#000;
+  }
+  span{
+    font-size: 16px;
+  }
+}
+.reply-box {
+    .chat-box {
+      background-color: #F6F3F3;
+      padding: 25px 10px;
+      border: 1px dashed #948989;
+  
+      input {
+        padding-top: unset;
+        padding-left: unset;
+        padding-right: unset;
+        border: unset;
+        background-color: #F6F3F3;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        border-radius: unset;
+  
+      }
+    }
+  
+    .file-upload-row {
+      .file-upload-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+  
+        span {
+          color: #838181;
+          font-size: 16px;
+        }
+  
+        .reply-button {
+          border-radius: unset;
+          padding: 5px 50px;
+        }
+      }
+    }
+  }
+  .company-summary-section {
+  .summary-box {
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 2px #DBDBDB26;
+    padding: 20px;
+    border: 1px solid #EFEFEF;
+    margin-bottom: 1rem;
+.wrap-container{
+  margin-bottom: unset !important;
+}
+    .summary-image {
+     padding:5px;
+     margin-right: 10px;
+    background: #2FAC6680;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    }
+
+    h5 {
+      font-size: 20px;
+    }
+
+    span {
+      color: #A1A1A1;
+    }
+  }
+}
+.btn-action.btn.btn-secondary {
+  .fas.fa-chevron-circle-right {
+    color: gray;
+    font-size: 18px;
+  }
+
+  &:hover {
+    background: unset;
+  }
+}
+
+.help-support-detail-table {
+  .table> :not(caption)>*>* {
+    background-color: #fff;
+    padding-bottom: unset;
+  }
+
+  .borderless-select {
+    border: unset;
+    color: #2FAC66;
+  }
+}
+
+.user-chat-section {
+  .user-image{
+    img{
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .user-time {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #948989;
+    padding: 0px 10px;
+  }
+
+  .border-bottom-light {
+    border-bottom: 1px solid #D9D6D6;
+
+    &:last-child {
+      border-bottom: unset !important;
+    }
+  }
+}
+
+.invoice-details-table{
+  img{
+    margin-right: 5px;
+  }
+  .download-btn{
+    background: #fff;
+    /* border: 1px solid #fff; */
+    color: #000;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #EB5933;
+  }
+}
+
+.account-setting-form{
+  em{
+    color:red;
+  }
+  .save-changes-button{
+    margin-right: 40px;
+    font-weight: 600;
+    padding:10px;
+  }
+  .cancel-button{
+    background: #fff;
+    box-shadow: none;
+    padding:10px 30px;
+    border:1px solid #000;
+  }
+}
+.caterer-area{
+  background: #F6F3F3;
+    padding: 20px 0px;
+  .caterer-img{
+    display: flex;
+    justify-content: center;
+    img{
+      width: 50%;
+      max-width: 100%;
+    }
+  }
+  .caterer-box{
+    padding-bottom: 10px;
+    img{
+      width: 15px;
+      height: 15px;
+    }
+    span{
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+}
+
+.user-sidebar.user-sidebar-open{
+  a{
+    text-decoration: none !important;
+    span{
+      color:#626161;
+    }
+  }
+}
+Link{
+  text-decoration: none;
+  color:black;
+}

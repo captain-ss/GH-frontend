@@ -1,0 +1,106 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.vendor-menu--wrapper {
+	.vendor-mealtype {
+		background-color: $color-gh-green-100;
+		display: block;
+		font-size: 22px;
+		font-weight: normal;
+		line-height: 28px;
+		padding: 5px 10px 5px 50px;
+		&::before {
+			left: 20px;
+		}
+	}
+}
+
+.meal--wrapper {
+	background-color: $color-gh-gray-300;
+	border: 1px solid $color-gh-gray-400;
+	border-radius: 20px;
+	box-shadow: 0 4px 4px rgba(200, 192, 192, 0.15);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 80px 10px 50px;
+	padding: 18px;
+	padding-top: 0;
+	position: relative;
+	text-align: center;
+	.meal--image {
+		border-radius: 50%;
+		margin: -50px auto 0;
+		width: 112px;
+	}
+	.meal--title {
+		color: $color-orange;
+		font-size: 18px;
+		line-height: 22px;
+		margin-top: 10px;
+
+		.meal-icon {
+			margin-left: -20px;
+			margin-right: 10px;
+		}
+	}
+	.ingredients {
+		color: $color-gh-gray-500;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 18px;
+	}
+	.ico-cal {
+		background-color: $color-orange;
+		border-radius: 50%;
+		color: var(--bs-white);
+		font-size: 13px;
+		font-weight: 500;
+		height: 44px;
+		left: -15px;
+		line-height: 16px;
+		padding: 5px;
+		position: absolute;
+		top: -15px;
+		width: 44px;
+	}
+	.more-cta {
+		background-color: $color-gh-gray-600;
+		border: 0;
+		border-radius: 50%;
+		color: var(--bs-white);
+		font-size: 34px;
+		height: 24px;
+		line-height: 1.1;
+		position: absolute;
+		padding-left: 19px;
+		right: 13px;
+		top: 10px;
+		width: 24px;
+	}
+}
+
+.btn--start-plan {
+	background-color: $color-gh-green;
+	border-radius: 50px;
+	color: var(--bs-white);
+	font-size: 20px;
+	line-height: 25px;
+	margin: 20px 0 50px 15px;
+	padding: 15px 60px 15px 30px;
+	position: relative;
+	span {
+		background-color: $color-gh-green-300;
+		border-radius: 50%;
+		display: inline-block;
+		padding: 14px;
+		position: absolute;
+		right: -10px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	&:focus,
+	&:hover {
+		color: var(--bs-white);
+	}
+}

@@ -1,0 +1,46 @@
+/*
+* @colors
+*/
+/*
+* @fonts
+*/
+/* ----- Responsive ----- */
+.meal-offer--wrapper {
+  background-color: var(--bs-white);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+  max-width: 350px;
+  padding: 20px;
+  padding-right: 50px;
+  position: absolute;
+  right: 45px;
+  top: 25px;
+}
+.meal-offer--wrapper .btn-close--offer {
+  background-color: transparent;
+  border: 0;
+  color: #EB5933;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+}
+.meal-offer--wrapper .offer-image {
+  height: 40px;
+}
+.meal-offer--wrapper .offer-content {
+  margin-left: 15px;
+}
+.meal-offer--wrapper .offer-content p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.meal-offer--wrapper .offer-content--text {
+  font-weight: bold;
+}
+.meal-offer--wrapper .offer-content--cta {
+  color: #EB5933;
+  font-size: 14px;
+  text-decoration: none;
+}/*# sourceMappingURL=OfferSnapshot.css.map */

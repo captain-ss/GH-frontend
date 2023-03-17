@@ -1,0 +1,34 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.content-box {
+	&---wrapper {
+		margin-bottom: 20px;
+		position: relative;
+	}
+	&--header {
+		text-align: center;
+	}
+	&--image-wrapper {
+		height: 280px;
+		overflow: hidden;
+		position: relative;
+
+		.content-box--image {
+			display: block;
+			object-fit: cover;
+			object-position: 50% 50%;
+			width: 100%;
+		}
+	}
+	&--text-right {
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	&--title {
+		font-size: 28px;
+		font-weight: 500;
+	}
+}

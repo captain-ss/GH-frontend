@@ -1,0 +1,27 @@
+.choose-your-goal--wrapper {
+  margin-bottom: 50px;
+}
+.choose-your-goal--wrapper .content-box--image-wrapper {
+  height: 325px;
+}
+.choose-your-goal--wrapper .content-box--image-wrapper:hover {
+  box-shadow: 7px 13px 35px -8px rgba(0, 0, 0, 0.75);
+}
+.choose-your-goal--wrapper .content-box--image-wrapper .content-box--image {
+  width: 100%;
+}
+.choose-your-goal--wrapper .content-box--texts {
+  left: 50%;
+  position: absolute;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.choose-your-goal--wrapper .content-box--texts .content-box--title {
+  color: var(--bs-white);
+}
+.choose-your-goal--wrapper .content-box--cta-link {
+  margin-top: 40px;
+}/*# sourceMappingURL=ChooseYourGoal.css.map */
